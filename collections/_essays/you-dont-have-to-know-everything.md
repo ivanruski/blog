@@ -1,4 +1,5 @@
 ---
+layout: essay
 title: "You dont have to know everything (unreviewed)"
 permalink: /essays/ydhke
 ---
@@ -63,8 +64,8 @@ be able to do all these things.
 fall down that rabit hole again I will remember writing this and I
 will manage to prioritize my tasks better.
 
-<a id="org3d5399c"></a> I use Rider(JetBrains) - really cool
-<a id="org296eb8d"></a> Kudos to the people behind it.  AHK = AutoHotKey
-<a id="orgb4dda63"></a> AHK is open sourced and in GitHub
-<a id="org969f68d"></a> Yes it was that bad - during work
+<a id="org3d5399c"> I use Rider(JetBrains) - really cool </a>
+<a id="org296eb8d"> Kudos to the people behind it.  AHK = AutoHotKey </a>
+<a id="orgb4dda63"> AHK is open sourced and in GitHub </a>
+<a id="org969f68d"> Yes it was that bad - during work </a>
 
