@@ -6,8 +6,8 @@ layout: default
 <div class="home">
     
     <ul class="collections-list">
-        {%- for collection in site.collections -%}
-            <li> <a href="{{collection.label}}"> {{ collection.label }} </a> </li>
+        {%- for collection in custom_collections -%}
+            <li> <a href="{{collection.label}}"> {{ collection.display_name }} </a> </li>
         {%- endfor -%}
     </ul>
 
