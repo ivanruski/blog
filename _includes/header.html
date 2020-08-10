@@ -1,0 +1,16 @@
+{%- assign custom_collections = site.collections | where_exp: "item", "item.label != 'posts'" -%}
+
+<header class="site-header">
+    <div class="wrapper">
+        <a class="site-title" rel="author" href="{{ "/" | relative_url }}"> Home </a>
+
+        <nav class="site-nav">
+            <div class="trigger">
+                {%- for collection in custom_collections -%}
+                    <a class="page-link" href="/{{collection.label}}"> {{ collection.display_name }} </a>
+                {%- endfor -%}
+                <a class="page-link" href="/about">About</a>
+            </div>
+        </nav>
+    </div>
+</header>

@@ -1,11 +1,11 @@
 ---
-layout: "essays"
+layout: default
 title: index
 ---
 
 {% assign essays = site.essays | where_exp: "item", "item.title != 'index'" %}
-<dl>
+<ul>
     {%- for essay in essays -%}
-        <dt> - <a href="{{essay.permalink}}" >{{ essay.title }}</a> </dt>
+        <li> <a href="{{essay.permalink}}">{{ essay.date | date: "%B %d, %Y" }} - {{ essay.title }}</a> </li>
     {%- endfor -%}    
-</dl>
+</ul>

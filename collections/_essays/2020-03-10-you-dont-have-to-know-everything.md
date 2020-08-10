@@ -1,10 +1,10 @@
 ---
 layout: essay
-title: "You dont have to know everything (unreviewed)"
+title: "You dont have to know everything (draft)"
 permalink: /essays/ydhke
 ---
 
-# You dont have to know everything
+### **{{ page.title }}**
 
   Recently I've started learning emacs. As part of the learning
 process I've decided that I will open every file with it in order to
