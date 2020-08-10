@@ -3,3 +3,9 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# emacs
+*~
+
+# project todos
+todos.org
